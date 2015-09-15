@@ -3,7 +3,7 @@
 # include kindle
 class kindle {
   package { 'Kindle':
-    source    => 'http://www.amazon.com/kindlemacdownload/ref\=klp_mac',
+    source    => 'http://www.amazon.com/kindlemacdownload/',
     provider  => 'appdmg'
   }
 }
